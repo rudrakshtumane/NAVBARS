@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+}
+/* _____________________bbc navbar______________________________________ */
+.container1 {
+    margin-top: 10px;
+    display: flex;
+    gap: 50px;
+    background-color: black;
+    height: 60px;
+}
+.bbc-logo {
+    
+    background-color: black;
+    border-right: 1px solid lightgray;
+    /* mix-blend-mode: color-burn; */
+}
+.sign-in {
+    margin-top: 20px;
+}
+.sign-in a {
+    text-decoration: none;
+     border-right: 1px solid lightgray;
+     padding: 20px;
+     color: white;
+     text-align:start;
+}
+.nav-conts {
+    margin-top: 20px;
+   
+}
+.nav-conts a {
+    /* margin-left: 20px; */
+    padding: 20px;
+    text-decoration: none;
+    border-right: 1px solid lightgray;
+    color: white;
+    
+}
+.search-bar1 {
+    margin-top: 15px;
+    width: 200px;
+    height: 20px;
+    background-color: rgb(245, 245, 245);
+    color: black;
+
+    padding:   5px 10px;
+}
+/* ______________________________CNN navbar__________________________________ */
+
+.container2 {
+    height: 60px;
+    background-color: black;
+    display: flex;
+   
+    
+}
+.container2 .cnn-logo {
+    padding-left: 25px;
+}
+.container2 .cnn-conts  {
+    padding: 20px;
+}
+ .cnn-conts a {
+    text-decoration: none;
+    padding-left: 10px;
+    color: white;
+}
+.cnn-dropdown {
+    margin-top: 20px;
+    margin-left: 350px;
+    color:white;
+}
+.search-icon {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: large;
+    color:white;
+
+}
+.user-icon {
+     margin-top: 20px;
+    margin-left: 20px;
+    font-size: large;
+    color:white;
+   
+}
+.menu-icon {
+        margin-top: 20px;
+    margin-left: 20px;
+    font-size: large;
+    color: white;
+    
+}
+.container2 a {
+    cursor: pointer;
+}
+/* _____________________linkdin navbar___________________ */
+.container3 {
+    margin-top: 10px;
+      height: 60px;
+    display: flex;
+       box-shadow: 2px 1px 10px #eee;
+    box-sizing: border-box;
+    z-index: 10;
+}
+.container3 .link-logo {
+    padding-left: 25px;
+}
+.container3 #link-searchbar {
+    color: black;
+    width: 350px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-top: 2px;
+    background-color: rgb(239, 238, 238);
+    border-radius: 5px;
+    border:0;
+}
+.container3 .home-icon i {
+     color: black;
+         margin-top: 20px;
+     margin-left: 500px;
+    font-size: large;
+}
+.container3 .people-icon {
+     color: black;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: large;
+    color:black ;
+}
+.container3 .breifcase-icon i {
+    color: black;
+          margin-top: 20px;
+    margin-left: 30px;
+    font-size: large;
+}
+.container3 .message-icon i {
+    color: black;
+          margin-top: 20px;
+    margin-left: 30px;
+    font-size: large;
+}
+.container3 .bell-icon i {
+    color: black;
+          margin-top: 20px;
+    margin-left: 30px;
+    font-size: large;
+}
+.container3 .profile-icon i {
+    color: black;
+          margin-top: 20px;
+    margin-left: 30px;
+    font-size: large;
+   
+}
+.container3 a:hover {
+    cursor: pointer;
+}
+/* _____________________instagram navbar______________________ */
+.container4 {
+      margin-top: 10px;
+      height: 60px;
+    display: flex;
+       box-shadow: 2px 1px 10px #eee;
+    box-sizing: border-box;
+    z-index: 10;
+}
+#insta-searchbar {
+       color: black;
+    width: 250px;
+    height: 30px;
+    margin-left: 300px;
+    margin-top: 15px;
+    padding-top: 2px;
+    background-color: rgb(239, 238, 238);
+    border-radius: 5px;
+    border:0;
+    text-align: center;
+}
+.container4 .insta-icon i {
+     color: black;
+    margin-top: 20px;
+    margin-left: 400px;
+    font-size: large;
+}
+.container4 .plane-icon i {
+     color: black;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: large;
+}
+.container4 .heart-icon i {
+     color: black;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: large;
+}
+.container4 .profile-icon i {
+     color: black;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: large;
+}
+/* ______________youtube navbar_______________________ */
+
+.container5 {
+     margin-top: 10px;
+      height: 60px;
+    display: flex;
+       box-shadow: 2px 1px 10px #eee;
+    box-sizing: border-box;
+    z-index: 10;
+}
+.container5 .menu-icon {
+        margin-top: 20px;
+    margin-left: 30px;
+    font-size: large;
+    color:black;
+}
+.container5 .youtube-logo {
+    margin-left: 30px;
+}
+.fg--search {
+    margin-left: 50px;
+    
+    background: white;
+    position: relative;
+  width: 300px;
+}
+
+.fg--search input {
+  width: 220px;
+  height: 1px;
+  margin-top: 5px;
+  padding: 20px 60px 20px 20px;
+  display: block;
+ 
+}
+
+.fg--search button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 14px 20px;
+  z-index: 2;
+}
+.container5 .video-icon {
+        margin-top: 20px;
+    margin-left: 450px;
+    font-size: large;
+}
+.container5 .grid-icon{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.container5 .bell-icon {
+    color: black;
+          margin-top: 20px;
+    margin-left: 30px;
+    font-size: large;
+}
+/* ______________________-facebook navbar______________________ */
+
+.container6 {
+         margin-top: 10px;
+      height: 60px;
+    display: flex;
+       box-shadow: 2px 1px 10px #eee;
+    box-sizing: border-box;
+    z-index: 10;
+}
+.container6 button {
+     width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 9px;
+    background-color: lightgray;
+    border: none;
+}
+.container6 .facebook-home {
+         color: black;
+    margin-top: 15px;
+    margin-left: 200px;
+    font-size: x-large;
+}
+.container6 .facebook-flag {
+     margin-top: 15px;
+      margin-left: 60px;
+      font-size: x-large;
+}
+.container6 .facebook-video {
+     margin-top: 15px;
+      margin-left: 60px;
+      font-size: x-large;
+}
+.container6 .searchbutton1 {
+         width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 9px;
+    background-color: lightgray;
+    border: none;
+    margin-left: 400px;
+}
+.container6 .searchbutton2 {
+    margin-left: 20px;
+}
+
+/* __________________g-mail navbar_________________________ */
+
+.container7 {
+      margin-top: 10px;
+      height: 60px;
+    display: flex;
+       box-shadow: 2px 1px 10px #eee;
+    box-sizing: border-box;
+    z-index: 10;
+}
+.container7 .menu-icon {
+    margin-left: 30px;
+    color: black;
+}
+.container7 .gmail-logo {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.container7 .search-container  {
+      color: black;
+    /* width: 600px; */
+    /* height: 40px; */
+    margin-left: 100px;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-top: 2px;
+    
+    border-radius: 5px;
+    border:0;
+      display: flex;
+  justify-content: center;
+}
+.container7 .search-container input[type=text]{
+      padding: 10px;
+  width: 500px;
+  height: 20px;
+  border: none;
+  background-color: rgb(239, 238, 238);
+}
+
+.container7 .search-container  button {
+  padding: 10px 20px;
+  color: black;
+  border: none;
+  height: 40px;
+
+}
+
+.container7 .question-icon {
+        margin-top: 20px;
+    margin-left: 190px;
+    font-size: larger;
+}
+.container7 .setting-icon {
+        margin-top: 20px;
+    margin-left: 30px;
+    font-size: large;
+}
+.container7 .grid-icon{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.container7 .user-icon {
+    color: black;
+          margin-top: 20px;
+    margin-left: 30px;
+    font-size: larger;
+}
+/* _______________________bootstrap navbar______________________ */
+
+.bs-navbar{
+         margin-top: 10px;
+        height: 60px;
+             display: flex;
+            box-shadow: 2px 1px 10px #eee;
+             box-sizing: border-box;
+            z-index: 10;
+            background-color: #5c3c8d;
+
+        }
+        .bs-navbar img{
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+        }
+        .bs-links{
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        .bs-links a{
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+        }
+        .version{
+            margin-top: 20px;
+            margin-left: 170px;
+        }
+        .version a{
+            text-decoration: none;
+            color: white;
+        }
+        .bs-third{
+            margin-top: 20px;
+            margin-left: 35px;
+        }
+        .bs-third a{
+            text-decoration: none;
+            padding: 15px;
+            color: white;
+        }
+        .btn{
+            margin-top: 12px;
+            margin-left: 20px;
+        }
+        .btn button{
+            color: yellow;
+            background-color: #5c3c8d;
+            border: 1px solid yellow;
+            padding:10px;
+        }
+    
+/* ________________________medium navbar______________ */
+.container9 {
+       margin-top: 10px;
+      height: 60px;
+    display: flex;
+       box-shadow: 2px 1px 10px #eee;
+    box-sizing: border-box;
+    z-index: 10;
+   
+}
+.container9 .medium-logo {
+    margin-left: 80px;
+}
+.container9 .medium-icon {
+    margin-left: 800px;
+    margin-top: 25px;
+}
+.container9 .medium-icon a {
+    padding: 20px;
+    font-size: larger;
+}
+/* _____________________________________________ */
+
+
+
+
+
+
+
+
+
+
+
+
+
